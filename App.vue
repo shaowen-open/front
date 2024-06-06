@@ -173,7 +173,7 @@ export default {
 
     //test
     if (uni.wen.api.debug == true) {
-      let token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImlzcyI6Imh0dHBzOi8vbWluaS5jaG9uZ3llYXBwLmNvbSJ9.eyJpc3MiOiJNci53ZW4iLCJhdWQiOiJodHRwczovL21pbmkuY2hvbmd5ZWFwcC5jb20iLCJqdGkiOiJNci53ZW4iLCJzdWIiOiJNci53ZW4iLCJpYXQiOiIxNjk1MTg4Nzg3LjMwNjMyMSIsIm5iZiI6IjE2OTUxODg3MjcuMzA2MzIxIiwiZXhwIjoiMTY5NjA1Mjc4Ny4zMDYzMjEiLCJ1aWQiOiIxMTU4MyJ9.OiGXD91jiAaWGezCg-U9Ragi38T6KoBsJZI68amZAz0'
+      let token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsIhvbmd5ZWFwcC5jb20iLCJqdGkiOiJNci53ZW4iLCJzdWIiOiJNci53ZW4iLCJpYXQiOiIxNjk1MTg4Nzg3LjMwNjMyMSIsIm5iZiI6IjE2OTUxODg3MjcuMzA2MzIxIiwiZXhwIjoiMTY5NjA1Mjc4Ny4zMDYzMjEiLCJ1aWQiOiIxMTU4MyJ9.OiGXD91jiAaWGezCg-U9Ragi38T6KoBsJZI68amZAz0'
       uni.$store.commit('updateToken', token)
       uni.setStorageSync('token', token)
 	  if(uni.$store.state.websocket){
